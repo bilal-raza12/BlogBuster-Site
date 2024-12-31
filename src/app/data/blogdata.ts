@@ -201,7 +201,7 @@ export const blogData : Blog[] = [
       
       Despite its benefits, the widespread adoption of 5G faces challenges, including infrastructure costs and cybersecurity concerns. Governments and private organizations are working together to address these issues, ensuring that the technology is accessible and secure.
       
-      As 5G continues to expand in 2024, it is reshaping the digital landscape and setting the stage for a hyper-connected, intelligent world. This evolution in connectivity is not just about faster speeds; it’s about unlocking new possibilities for innovation and collaboration.`,
+      As 5G continues to expand in 2024, it is reshaping the digital landscape and setting the stage for a hyper-connected, intelligent world. This evolution in connectivity is not just about faster speeds; it&apos;s about unlocking new possibilities for innovation and collaboration.`,
       slug: "5g-and-beyond-future-of-connectivity-2024",
   }
 ]
