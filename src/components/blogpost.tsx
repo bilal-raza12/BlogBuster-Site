@@ -38,7 +38,7 @@ const BlogPost = ({title , author , publishdate , imageURL , content}:IBlogPost)
           </div>
           <div className="mt-6">
             {comments.map((c,i) => (
-              <div className=' bg-white w-[300px] sm:w-[400px] border-[1px] shadow-lg p-4 mb-4'>
+              <div key={i} className=' bg-white w-[300px] sm:w-[400px] border-[1px] shadow-lg p-4 mb-4'>
 
               <div className='flex gap-3 '>
                 <div className='w-10 h-10'><FaUserAlt className='text-blue-800 w-8 h-8'/></div>
