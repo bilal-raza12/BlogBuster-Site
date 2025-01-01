@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { FaUserAlt } from "react-icons/fa";
 
 const BlogPost = ({title , author , publishdate , imageURL , content}:any) => {
-  const [comments , setComments] = useState<{name:string , comment:string}[]>([]);
+  const [comments , setComments] = useState<{name:any , comment:any}[]>([]);
   const [newComments , setNewComments] = useState<string>("");
   const [name,setName] = useState<string>();
   const handleComments = () => {
