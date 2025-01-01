@@ -46,7 +46,7 @@ const BlogPost = ({title , author , publishdate , imageURL , content}:IBlogPost)
               </div>
               <div  className='mb-4 h-auto  '>
                 
-                <h1 className='text-xs'>"{c.comment}"</h1>
+                <h1 className='text-xs'>{c.comment}</h1>
               </div>
               </div>
               
