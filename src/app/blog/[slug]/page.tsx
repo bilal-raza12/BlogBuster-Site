@@ -13,7 +13,7 @@ const Blog = ({params} : any) => {
     <div className="p-4">
         
 
-        <BlogPost title={blog?.title?} author={blog?.author?} publishdate={blog?.publishedate?} imageURL={blog?.imageURL?} content={blog?.content?}/>
+        <BlogPost  title={blog?.title} author={blog?.author} publishdate={blog?.publishedate} imageURL={blog?.imageURL} content={blog?.content}/>
     
     </div>
   )

@@ -2,15 +2,8 @@
 import {useState} from 'react'
 import Image from 'next/image'
 import { FaUserAlt } from "react-icons/fa";
-export interface IBlogPost {
-  slug:string
-    title:string,
-    content:string,
-    author: string,
-    publishdate: string,
-    imageURL:string,
-}
-const BlogPost = ({title , author , publishdate , imageURL , content}:IBlogPost) => {
+
+const BlogPost = ({title , author , publishdate , imageURL , content}:any) => {
   const [comments , setComments] = useState<{name:string , comment:string}[]>([]);
   const [newComments , setNewComments] = useState<string>("");
   const [name,setName] = useState<string>();
