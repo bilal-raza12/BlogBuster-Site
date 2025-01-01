@@ -6,7 +6,7 @@ import BlogPost from "@/components/blogpost"
 interface BlogProps {
     params:{slug: string}
 }
-const Blog = ({params} : any) => {
+const Blog = ({params} : BlogProps) => {
     const blog = blogData.find((b) => b.slug === params.slug)
    
   return (
